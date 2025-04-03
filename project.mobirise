@@ -249,7 +249,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.9.4",
-    "versionPublish": "5.9.18",
+    "versionPublish": "5.9.25",
     "siteFonts": [
       {
         "url": "https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap",
@@ -279,17 +279,27 @@
     ],
     "uniqCompNum": 15,
     "imageResize": true,
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "mbrsiteDomain": "yxr4l8gcnc",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Remonty Profesjonalne w Tarnowie Podgórnym i okolicach",
-        "meta_descr": "Profesjonalna firma remontowa oferująca remonty mieszkań, łazienek, kuchni oraz wykończenia wnętrz w Tarnowie Podgórnym i okolicach. Solidność i najwyższa jakość usług.",
-        "header_custom": "",
+        "meta_descr": "Profesjonalna firma remontowa oferująca remonty mieszkań, łazienek i kuchni oraz wykończenia wnętrz w Tarnowie Podgórnym i okolicach.",
+        "header_custom": "<link rel=\"canonical\" href=\"https://solidny.net.pl\" />\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"keywords\" content=\"Remonty mieszkań Tarnowo Podgórne, Firma remontowa Tarnowo Podgórne, Profesjonalne remonty Tarnowo Podgórne, Remonty łazienek Tarnowo Podgórne, Remonty kuchni Tarnowo Podgórne, Wykończenia wnętrz Tarnowo Podgórne, Firma remontowa Tarnowo Podgórne i okolice, Remonty wnętrz Tarnowo Podgórne, Solidna firma remontowa Tarnowo Podgórne, Profesjonalne wykończenia wnętrz Tarnowo Podgórne, Remonty mieszkań w Tarnowie Podgórnym, Remonty mieszkań i łazienek Tarnowo Podgórne, Remonty w Tarnowie Podgórnym i okolicach, Renowacje wnętrz Tarnowo Podgórne, Usługi remontowe Tarnowo Podgórne\">\n<meta name=\"publisher\" content=\"Z Zamiłowania Baranowo\">",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "<html lang=\"pl\">",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo%20ko%C5%82o-250x250.png"
       },
       "components": [
         {
