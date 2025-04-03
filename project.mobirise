@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "firma remontowa",
+    "name": "Solidny - firma remontowa",
     "currentPage": "index.html",
     "ai": {
       "prompt": "Stwórz stronę internetową dla firmy remontowej, która prezentuje profesjonalizm i jakość usług. Strona powinna zawierać:\n\nZdjęcia przed i po realizacji remontów, by pokazać efekty pracy.\nOpis usług: np. remonty mieszkań, łazienek, kuchni, wykończenia wnętrz, malowanie, układanie podłóg, montaż drzwi i okien, instalacje elektryczne i hydrauliczne.\nObszar działania: szczegółowe informacje o regionach, w których firma oferuje swoje usługi.\nFormularz kontaktowy oraz dane kontaktowe (telefon, e-mail) widoczne na każdej podstronie.\nSekcję z referencjami klientów i krótkie informacje o doświadczeniu firmy.\"",
@@ -281,14 +281,15 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "yxr4l8gcnc",
+    "mbrsiteDomain": "1vpltbioha",
     "usedWebp": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://solidny.net.pl/",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "robotsText": "User-agent: *\nAllow: /\nSitemap: https://solidny.net.pl/sitemap.xml"
   },
   "pages": {
     "index.html": {
@@ -296,7 +297,7 @@
         "main": true,
         "title": "Remonty Profesjonalne w Tarnowie Podgórnym i okolicach",
         "meta_descr": "Profesjonalna firma remontowa oferująca remonty mieszkań, łazienek i kuchni oraz wykończenia wnętrz w Tarnowie Podgórnym i okolicach.",
-        "header_custom": "<link rel=\"canonical\" href=\"https://solidny.net.pl\" />\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"keywords\" content=\"Remonty mieszkań Tarnowo Podgórne, Firma remontowa Tarnowo Podgórne, Profesjonalne remonty Tarnowo Podgórne, Remonty łazienek Tarnowo Podgórne, Remonty kuchni Tarnowo Podgórne, Wykończenia wnętrz Tarnowo Podgórne, Firma remontowa Tarnowo Podgórne i okolice, Remonty wnętrz Tarnowo Podgórne, Solidna firma remontowa Tarnowo Podgórne, Profesjonalne wykończenia wnętrz Tarnowo Podgórne, Remonty mieszkań w Tarnowie Podgórnym, Remonty mieszkań i łazienek Tarnowo Podgórne, Remonty w Tarnowie Podgórnym i okolicach, Renowacje wnętrz Tarnowo Podgórne, Usługi remontowe Tarnowo Podgórne\">\n<meta name=\"publisher\" content=\"Z Zamiłowania Baranowo\">",
+        "header_custom": "<link rel=\"canonical\" href=\"https://solidny.net.pl\" />\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"keywords\" content=\"Remonty mieszkań Tarnowo Podgórne, Profesjonalne remonty Tarnowo Podgórne, Remonty łazienek Tarnowo Podgórne, Remonty kuchni Tarnowo Podgórne, Wykończenia wnętrz Tarnowo Podgórne, Firma remontowa Tarnowo Podgórne i okolice, Remonty wnętrz Tarnowo Podgórne, Solidna firma remontowa Tarnowo Podgórne, Profesjonalne wykończenia wnętrz Tarnowo Podgórne, Remonty mieszkań w Tarnowie Podgórnym, Remonty mieszkań i łazienek Tarnowo Podgórne, Remonty w Tarnowie Podgórnym i okolicach, Renowacje wnętrz Tarnowo Podgórne, Usługi remontowe Tarnowo Podgórne\">\n<meta name=\"publisher\" content=\"Z Zamiłowania Baranowo\">",
         "footer_custom": "",
         "html_before": "<html lang=\"pl\">",
         "meta_image": "@PROJECT_PATH@/assets/images/logo%20ko%C5%82o-250x250.png"
