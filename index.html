@@ -35,24 +35,23 @@
 <meta name="keywords" content="Remonty mieszkań Tarnowo Podgórne, Profesjonalne remonty Tarnowo Podgórne, Remonty łazienek Tarnowo Podgórne, Remonty kuchni Tarnowo Podgórne, Wykończenia wnętrz Tarnowo Podgórne, Firma remontowa Tarnowo Podgórne i okolice, Remonty wnętrz Tarnowo Podgórne, Solidna firma remontowa Tarnowo Podgórne, Profesjonalne wykończenia wnętrz Tarnowo Podgórne, Remonty mieszkań w Tarnowie Podgórnym, Remonty mieszkań i łazienek Tarnowo Podgórne, Remonty w Tarnowie Podgórnym i okolicach, Renowacje wnętrz Tarnowo Podgórne, Usługi remontowe Tarnowo Podgórne">
 <meta name="publisher" content="Z Zamiłowania Baranowo">
 	<style>
+<style>
 /* Fix dla płynnego scrollowania w Chrome */
 .header18 {
-    will-change: transform;
-    transform: translateZ(0);
-}
-
-/* Wymuszenie akceleracji sprzętowej */
-.mbr-fullscreen {
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 /* Optymalizacja dla iframe YouTube */
 .header18 iframe {
     pointer-events: none;
+}
+
+/* Płynne scrollowanie */
+html {
+    scroll-behavior: smooth;
 }
 </style>
 </head>
