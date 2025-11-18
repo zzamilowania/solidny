@@ -2619,16 +2619,6 @@ a {
   background-color: #000000;
   overflow: hidden;
 }
-/* FIX: Chrome scroll lag on Mobirise header with YouTube background */
-[data-bg-video] iframe {
-  pointer-events: none !important;
-}
-
-.header18 {
-  touch-action: auto !important;
-  overscroll-behavior: auto !important;
-}
-
 .cid-uvfowfX0Ze .media-container-row .mbr-text {
   text-align: center;
 }
